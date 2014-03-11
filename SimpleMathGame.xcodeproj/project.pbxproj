@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650FEA8918CF4CA400C2BCC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650FEA8818CF4CA400C2BCC5 /* Foundation.framework */; };
+		650FEA8B18CF4CA400C2BCC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650FEA8A18CF4CA400C2BCC5 /* CoreGraphics.framework */; };
+		650FEA8D18CF4CA400C2BCC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650FEA8C18CF4CA400C2BCC5 /* UIKit.framework */; };
+		650FEA9318CF4CA400C2BCC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 650FEA9118CF4CA400C2BCC5 /* InfoPlist.strings */; };
+		650FEA9518CF4CA400C2BCC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 650FEA9418CF4CA400C2BCC5 /* main.m */; };
+		650FEA9918CF4CA400C2BCC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 650FEA9818CF4CA400C2BCC5 /* AppDelegate.m */; };
+		650FEA9B18CF4CA400C2BCC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650FEA9A18CF4CA400C2BCC5 /* Images.xcassets */; };
+		650FEAA218CF4CA500C2BCC5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650FEAA118CF4CA500C2BCC5 /* XCTest.framework */; };
+		650FEAA318CF4CA500C2BCC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650FEA8818CF4CA400C2BCC5 /* Foundation.framework */; };
+		650FEAA418CF4CA500C2BCC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650FEA8C18CF4CA400C2BCC5 /* UIKit.framework */; };
+		650FEAAC18CF4CA500C2BCC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 650FEAAA18CF4CA500C2BCC5 /* InfoPlist.strings */; };
+		650FEAAE18CF4CA500C2BCC5 /* SimpleMathGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 650FEAAD18CF4CA500C2BCC5 /* SimpleMathGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		650FEAA518CF4CA500C2BCC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 650FEA7D18CF4CA400C2BCC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 650FEA8418CF4CA400C2BCC5;
+			remoteInfo = SimpleMathGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		650FEA8518CF4CA400C2BCC5 /* SimpleMathGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMathGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		650FEA8818CF4CA400C2BCC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		650FEA8A18CF4CA400C2BCC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		650FEA8C18CF4CA400C2BCC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		650FEA9018CF4CA400C2BCC5 /* SimpleMathGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleMathGame-Info.plist"; sourceTree = "<group>"; };
+		650FEA9218CF4CA400C2BCC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		650FEA9418CF4CA400C2BCC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		650FEA9618CF4CA400C2BCC5 /* SimpleMathGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleMathGame-Prefix.pch"; sourceTree = "<group>"; };
+		650FEA9718CF4CA400C2BCC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		650FEA9818CF4CA400C2BCC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		650FEA9A18CF4CA400C2BCC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		650FEAA018CF4CA500C2BCC5 /* SimpleMathGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMathGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		650FEAA118CF4CA500C2BCC5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		650FEAA918CF4CA500C2BCC5 /* SimpleMathGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleMathGameTests-Info.plist"; sourceTree = "<group>"; };
+		650FEAAB18CF4CA500C2BCC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		650FEAAD18CF4CA500C2BCC5 /* SimpleMathGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleMathGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		650FEA8218CF4CA400C2BCC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650FEA8B18CF4CA400C2BCC5 /* CoreGraphics.framework in Frameworks */,
+				650FEA8D18CF4CA400C2BCC5 /* UIKit.framework in Frameworks */,
+				650FEA8918CF4CA400C2BCC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650FEA9D18CF4CA500C2BCC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650FEAA218CF4CA500C2BCC5 /* XCTest.framework in Frameworks */,
+				650FEAA418CF4CA500C2BCC5 /* UIKit.framework in Frameworks */,
+				650FEAA318CF4CA500C2BCC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650FEA7C18CF4CA400C2BCC5 = {
+			isa = PBXGroup;
+			children = (
+				650FEA8E18CF4CA400C2BCC5 /* SimpleMathGame */,
+				650FEAA718CF4CA500C2BCC5 /* SimpleMathGameTests */,
+				650FEA8718CF4CA400C2BCC5 /* Frameworks */,
+				650FEA8618CF4CA400C2BCC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		650FEA8618CF4CA400C2BCC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650FEA8518CF4CA400C2BCC5 /* SimpleMathGame.app */,
+				650FEAA018CF4CA500C2BCC5 /* SimpleMathGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		650FEA8718CF4CA400C2BCC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				650FEA8818CF4CA400C2BCC5 /* Foundation.framework */,
+				650FEA8A18CF4CA400C2BCC5 /* CoreGraphics.framework */,
+				650FEA8C18CF4CA400C2BCC5 /* UIKit.framework */,
+				650FEAA118CF4CA500C2BCC5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		650FEA8E18CF4CA400C2BCC5 /* SimpleMathGame */ = {
+			isa = PBXGroup;
+			children = (
+				650FEA9718CF4CA400C2BCC5 /* AppDelegate.h */,
+				650FEA9818CF4CA400C2BCC5 /* AppDelegate.m */,
+				650FEA9A18CF4CA400C2BCC5 /* Images.xcassets */,
+				650FEA8F18CF4CA400C2BCC5 /* Supporting Files */,
+			);
+			path = SimpleMathGame;
+			sourceTree = "<group>";
+		};
+		650FEA8F18CF4CA400C2BCC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				650FEA9018CF4CA400C2BCC5 /* SimpleMathGame-Info.plist */,
+				650FEA9118CF4CA400C2BCC5 /* InfoPlist.strings */,
+				650FEA9418CF4CA400C2BCC5 /* main.m */,
+				650FEA9618CF4CA400C2BCC5 /* SimpleMathGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		650FEAA718CF4CA500C2BCC5 /* SimpleMathGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				650FEAAD18CF4CA500C2BCC5 /* SimpleMathGameTests.m */,
+				650FEAA818CF4CA500C2BCC5 /* Supporting Files */,
+			);
+			path = SimpleMathGameTests;
+			sourceTree = "<group>";
+		};
+		650FEAA818CF4CA500C2BCC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				650FEAA918CF4CA500C2BCC5 /* SimpleMathGameTests-Info.plist */,
+				650FEAAA18CF4CA500C2BCC5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		650FEA8418CF4CA400C2BCC5 /* SimpleMathGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650FEAB118CF4CA500C2BCC5 /* Build configuration list for PBXNativeTarget "SimpleMathGame" */;
+			buildPhases = (
+				650FEA8118CF4CA400C2BCC5 /* Sources */,
+				650FEA8218CF4CA400C2BCC5 /* Frameworks */,
+				650FEA8318CF4CA400C2BCC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMathGame;
+			productName = SimpleMathGame;
+			productReference = 650FEA8518CF4CA400C2BCC5 /* SimpleMathGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		650FEA9F18CF4CA500C2BCC5 /* SimpleMathGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650FEAB418CF4CA500C2BCC5 /* Build configuration list for PBXNativeTarget "SimpleMathGameTests" */;
+			buildPhases = (
+				650FEA9C18CF4CA500C2BCC5 /* Sources */,
+				650FEA9D18CF4CA500C2BCC5 /* Frameworks */,
+				650FEA9E18CF4CA500C2BCC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				650FEAA618CF4CA500C2BCC5 /* PBXTargetDependency */,
+			);
+			name = SimpleMathGameTests;
+			productName = SimpleMathGameTests;
+			productReference = 650FEAA018CF4CA500C2BCC5 /* SimpleMathGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		650FEA7D18CF4CA400C2BCC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Evgeniy Gushchin";
+				TargetAttributes = {
+					650FEA9F18CF4CA500C2BCC5 = {
+						TestTargetID = 650FEA8418CF4CA400C2BCC5;
+					};
+				};
+			};
+			buildConfigurationList = 650FEA8018CF4CA400C2BCC5 /* Build configuration list for PBXProject "SimpleMathGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 650FEA7C18CF4CA400C2BCC5;
+			productRefGroup = 650FEA8618CF4CA400C2BCC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				650FEA8418CF4CA400C2BCC5 /* SimpleMathGame */,
+				650FEA9F18CF4CA500C2BCC5 /* SimpleMathGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		650FEA8318CF4CA400C2BCC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650FEA9318CF4CA400C2BCC5 /* InfoPlist.strings in Resources */,
+				650FEA9B18CF4CA400C2BCC5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650FEA9E18CF4CA500C2BCC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650FEAAC18CF4CA500C2BCC5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		650FEA8118CF4CA400C2BCC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650FEA9918CF4CA400C2BCC5 /* AppDelegate.m in Sources */,
+				650FEA9518CF4CA400C2BCC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650FEA9C18CF4CA500C2BCC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650FEAAE18CF4CA500C2BCC5 /* SimpleMathGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		650FEAA618CF4CA500C2BCC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 650FEA8418CF4CA400C2BCC5 /* SimpleMathGame */;
+			targetProxy = 650FEAA518CF4CA500C2BCC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		650FEA9118CF4CA400C2BCC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650FEA9218CF4CA400C2BCC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		650FEAAA18CF4CA500C2BCC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				650FEAAB18CF4CA500C2BCC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		650FEAAF18CF4CA500C2BCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		650FEAB018CF4CA500C2BCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		650FEAB218CF4CA500C2BCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMathGame/SimpleMathGame-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMathGame/SimpleMathGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		650FEAB318CF4CA500C2BCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMathGame/SimpleMathGame-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMathGame/SimpleMathGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		650FEAB518CF4CA500C2BCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleMathGame.app/SimpleMathGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMathGame/SimpleMathGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleMathGameTests/SimpleMathGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		650FEAB618CF4CA500C2BCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleMathGame.app/SimpleMathGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMathGame/SimpleMathGame-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMathGameTests/SimpleMathGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		650FEA8018CF4CA400C2BCC5 /* Build configuration list for PBXProject "SimpleMathGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650FEAAF18CF4CA500C2BCC5 /* Debug */,
+				650FEAB018CF4CA500C2BCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650FEAB118CF4CA500C2BCC5 /* Build configuration list for PBXNativeTarget "SimpleMathGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650FEAB218CF4CA500C2BCC5 /* Debug */,
+				650FEAB318CF4CA500C2BCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		650FEAB418CF4CA500C2BCC5 /* Build configuration list for PBXNativeTarget "SimpleMathGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650FEAB518CF4CA500C2BCC5 /* Debug */,
+				650FEAB618CF4CA500C2BCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 650FEA7D18CF4CA400C2BCC5 /* Project object */;
+}
